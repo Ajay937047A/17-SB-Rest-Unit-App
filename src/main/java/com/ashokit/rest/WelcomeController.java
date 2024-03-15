@@ -17,6 +17,7 @@ public class WelcomeController {
 	
 	@GetMapping("/welcome")
 	public ResponseEntity<String> welcome(){
+		System.out.println("welcome service call");
 		String responseMsg = welcomeService.getwelcomeMsg();
 		return new ResponseEntity<String>(responseMsg,HttpStatus.OK);
 		
