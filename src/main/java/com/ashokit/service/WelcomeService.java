@@ -17,6 +17,7 @@ public class WelcomeService {
 	}
 
 	public String getEmail() {
+		System.out.println("welcome service call");
 		String email="ajay@123";
 		return email;
 	}
