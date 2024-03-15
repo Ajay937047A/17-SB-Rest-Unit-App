@@ -12,12 +12,13 @@ public class WelcomeService {
 	}
 	
 	public String getLogin() {
+		System.out.println("getLogin method()...!!called");
 		String msg="User Login Successfully";
 		return msg;
 	}
 
 	public String getEmail() {
-		System.out.println("welcome service call");
+		System.out.println("getEmail() method called");
 		String email="ajay@123";
 		return email;
 	}
